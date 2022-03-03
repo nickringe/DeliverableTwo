@@ -19,8 +19,6 @@ public class CoinFlipProject {
 		System.out.println("Guess which will have more - heads or tails?:");
 		String headsOrTailsGuess = scnr.nextLine();
 		
-		
-		
 		System.out.println("How many times shall we flip the coin?");
 		System.out.println("Input answer as a whole number only:");
 		
@@ -45,14 +43,12 @@ public class CoinFlipProject {
             	correctCount = tailsCounter;
             } 
 
-		
             scnr.close();
 		
 	}
 		
-			
 		System.out.println("Your guess, " + headsOrTailsGuess + ", came up " + correctCount + " times.");
 		System.out.println("Thats " + correctCount * 100 / numberOfFlips + "%");
 
-		
-}}
+	}		
+}
