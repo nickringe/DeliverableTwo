@@ -53,7 +53,6 @@ public class CoinFlipProject {
 			
 		System.out.println("Your guess, " + headsOrTailsGuess + ", came up " + correctCount + " times.");
 		System.out.println("Thats " + correctCount * 100 / numberOfFlips + "%");
-		System.out.println(tailsCounter + " " + headsCounter + " " + loop + " " + correctCount + " " + numberOfFlips);
 
 		
 }}
